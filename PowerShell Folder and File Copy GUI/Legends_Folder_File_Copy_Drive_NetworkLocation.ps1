@@ -52,5 +52,5 @@ foreach ($file in $files) {
 }
 
 # ===================== DONE =====================
-Write-Host "`n✅ Copy operation completed. Log saved to: $logFile" -ForegroundColor Green
+Write-Host "Copy operation completed. Log saved to: $logFile" -ForegroundColor Green
 Add-Content -Path $logFile -Value "`n=== File Copy Completed: $(Get-Date) ==="
