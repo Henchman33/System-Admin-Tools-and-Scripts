@@ -114,7 +114,7 @@ $btnCopy.Add_Click({
         $progressBar.Value = [math]::Min(100, [math]::Round(($counter / $total) * 100))
     }
 
-    [System.Windows.Forms.MessageBox]::Show("✅ Copy operation completed!")
+    [System.Windows.Forms.MessageBox]::Show("Copy operation completed!")
 })
 $form.Controls.Add($btnCopy)
 
